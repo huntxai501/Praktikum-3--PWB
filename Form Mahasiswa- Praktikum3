@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Mahasiswa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Form Login Mahasiswa</h1>
+  
+  <form>
+    <label>Email</label><br>
+    <input type ="email" required>
+    <br><br>
+
+    <label>Password</label><br>
+    <input type="password" required>
+    <br><br>
+
+    <button type ="submit">LOGIN</button>
+    <button type = "reset">RESET</button>
+  </form>
+    <h1 class="title">Biodata Mahasiswa</h1>
+
+    <form>
+      <label>NIM</label><br>
+      <input type ="text">
+      <br><br>
+
+      <label>Nama Lengkap</label>
+      <input type ="text" required>
+      <br> <br>
+
+      <label>Email</label><br> 
+      <input type = "email">
+      <br><br>
+
+      <label>Tanggal Lahir</label><br>
+      <input type = "date">
+      <br><br>
+
+      <label>Jenis Kelamin</label><br>
+      <input type = "radio" name = "gender"> Laki-laki
+      <input type ="radio" name = "gender"> Perempuan
+      <br> <br>
+    
+      <button type = "submit">SIMPAN</button>
+    </form>
+    <h1 class= "title">Minat Teknologi Mahasiswa</h1>
+
+    <form>
+      <label>Nama</label><br>
+      <input type = "text"> 
+      <br><br>
+
+      <label>Pilih Minat</label><br>
+      <input type ="checkbox">Web Development<br>
+      <input type = "checkbox"> Artificial Intelligence<br>
+      <input type = "checkbox"> Mobile Development<br>
+      <input type = "checkbox"> Game Develompent<br>
+      <input type = "checkbox"> Cyber Security<br>
+      <br>
+
+      <button type ="submit">SIMPAN</button>
+      </form>
+  </body>
+</html>
